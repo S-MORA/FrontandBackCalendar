@@ -13,9 +13,6 @@ Once submit is clicked the form disappears and event now appears in that day’s
 Switch between months.
 
 
-Handle events spanning multiple days.
-
-
 Handle too many events per day.
 
 

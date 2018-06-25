@@ -1,16 +1,16 @@
 # README
 
-## Back End Calender
+## Back End Calendar
 
-### Rails API Calendar supports Create, Read, & Delete on events.
+### Back End: Rails API Calendar can create, read, & delete events from postgreSQL database
 
-Controller in CalenderBackEnd/app/controllers/api/v1/events_controller.rb
-
-
-Routes in CalenderBackEnd/config/routes.rb
+Controller in CalendarBackEnd/app/controllers/api/v1/events_controller.rb
 
 
-Cors configuration in CalenderBackEnd/config/application.rb
+Routes in CalendarBackEnd/config/routes.rb
+
+
+Cors configuration in CalendarBackEnd/config/application.rb
 
 
 
