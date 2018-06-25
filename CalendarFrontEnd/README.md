@@ -5,20 +5,19 @@
 ### Specs:
 
 
-
-Click on a day box and create a new event on that day which gets sent to the backendCalender Rails API on clicking submit.
+Click on a day box and create a new event on that day which gets sent to the backendCalender Rails API using JSON on clicking submit.
 
 
 Once submit is clicked the form disappears and event now appears in that day’s box.
 
 
-Switch between months
+Switch between months.
 
 
-Handle events spanning multiple days
+Handle events spanning multiple days.
 
 
-Handle too many events to fit in your box UI on a given day.
+Handle too many events per day.
 
 
 Able to delete events.
