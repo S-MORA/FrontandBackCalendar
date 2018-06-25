@@ -26,4 +26,4 @@ Able to delete events.
 
 The UI has 5 rows of 7 boxes with the correct date on the correct days.
 
-![alt text]('https://raw.githubusercontent.com/S-MORA/FrontandBackCalendar/master/CalendarFrontEnd/FrontEndScreenShot.png')
+![alt text](https://raw.githubusercontent.com/S-MORA/FrontandBackCalendar/master/CalendarFrontEnd/FrontEndScreenShot.png)
