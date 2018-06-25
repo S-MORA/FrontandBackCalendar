@@ -5,8 +5,14 @@
 Rails API Calendar supports Create, Read, & Delete on events.
 
 Controller in CalenderBackEnd/app/controllers/api/v1/events_controller.rb
+
+
 Routes in CalenderBackEnd/config/routes.rb
+
+
 Cors configuration in CalenderBackEnd/config/application.rb
+
+
 
 * Ruby version:
 
