@@ -66,6 +66,7 @@ body {
   float: right;
   margin: 0px auto;
   padding: 0 10px;
+  /* handles too many events per day  */
   overflow-y: scroll;
 }
 

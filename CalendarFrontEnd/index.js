@@ -38,6 +38,7 @@ function createCalender(date) {
   let dayCounter = daysForMonth(month, year);
   let row = $("<tr class='table-row'></tr>");
   let today = date.getDate();
+  // has 5 rows of 7 boxes with the correct date on the correct days
   date.setDate(1);
   let dayOne = date.getDay();
 
@@ -48,7 +49,6 @@ function createCalender(date) {
       calDays.append(row);
       row = $("<tr class='table-row'></tr>");
     }
-    //blank days in the month
     if (i < dayOne || day > dayCounter) {
       let activeDate = $("<td class='table-date nil'>" + "</td>");
       row.append(activeDate);
@@ -80,7 +80,7 @@ function daysForMonth(month, year) {
   let oneDay = (1000 * 60 * 60 * 24);
   return (monthEnd - monthStart) / oneDay;
 }
-
+//Switch between months
 function changeMonth(event) {
   $(".events-container").show(100);
   $("#pop-out").hide(100);
@@ -133,6 +133,7 @@ function newEvent(event) {
     $("#pop-out").hide(100);
     $(".events-container").show(100);
   });
+  //form creates event and makes the form disappear
   $("#ok-button").click(function() {
     let date = event.data.date;
     console.log(date.getFullYear())
@@ -185,7 +186,7 @@ function showEventsForDay(events, month, day) {
       $(event_card).append(event_name).append(event_start).append(event_end).append(event_deletion);
       $(".events-container").append(event_card);
     }
-    //DELETE
+    //Able to delete events
     $('.events-container').on('click', '.event-delete', function() {
       let id = $(this).attr('id')
       $.ajax({

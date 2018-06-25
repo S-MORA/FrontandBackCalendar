@@ -39,4 +39,4 @@ In Terminal rails db:seed to use dummy data provided by 'faker' gem.
 After installing Rails, run rails db:create, rails db:migrate and finally rails s to start the server.
 
 
-* Open CalenderFrontEnd/index.html in Browser and begin using Calendar to create events on a date.
+* Open CalendarFrontEnd/index.html in Browser and begin using Calendar to create events on a date.
