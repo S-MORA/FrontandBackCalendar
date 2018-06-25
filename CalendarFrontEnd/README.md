@@ -5,7 +5,7 @@
 ### Specs:
 
 
-Click on a day box and create a new event on that day which gets sent to the backendCalender Rails API using JSON on clicking submit.
+Click on a day box and create a new event on that day which gets sent to the backendCalendar Rails API using JSON on clicking submit.
 
 
 Once submit is clicked the form disappears and event now appears in that day’s box.
