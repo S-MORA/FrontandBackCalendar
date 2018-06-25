@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Calendar FrontEnd</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      Sharon Morato's Front End Calender
+    </div>
+    <div class="calendar-container">
+      <div class="calendar">
+        <div class="year-title">
+          <span> 2018 </span>
+        </div>
+
+        <table class="all-months">
+          <tbody>
+            <tr class="months-row">
+              <td class="month">Jan</td>
+              <td class="month">Feb</td>
+              <td class="month">Mar</td>
+              <td class="month">Apr</td>
+              <td class="month">May</td>
+              <td class="month">Jun</td>
+              <td class="month">Jul</td>
+              <td class="month">Aug</td>
+              <td class="month">Sep</td>
+              <td class="month">Oct</td>
+              <td class="month">Nov</td>
+              <td class="month">Dec</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="days-table">
+          <td class="day">Sun</td>
+          <td class="day">Mon</td>
+          <td class="day">Tue</td>
+          <td class="day">Wed</td>
+          <td class="day">Thu</td>
+          <td class="day">Fri</td>
+          <td class="day">Sat</td>
+        </table>
+        <div>
+          <table class="dates-table">
+            <tbody class="tbody">
+            </tbody>
+          </table>
+        </div>
+        <button class="button" id="add-button">Add Event</button>
+      </div>
+    </div>
+    <div class="events-container"></div>
+    <div class="pop-out" id="pop-out">
+      <h2 class="pop-out-title"> Add New Event </h2>
+      <form class="form" id="form">
+        <div class="form-container" align="center">
+          <label id="valueFromMyButton" for="title">Event name</label>
+          <input class="input" type="text" id="name">
+          <label class="form-label" id="valueFromMyButton" for="start">Start time:</label>
+          <input class="input" type="time" id="start">
+          <label class="form-label" id="valueFromMyButton" for="start">End time:</label>
+          <input class="input" type="time" id="end">
+
+          <input type="button" value="Cancel" class="button" id="cancel-button">
+          <input type="button" value="OK" class="button" id="ok-button">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src=jquery-dateFormat.min.js></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
