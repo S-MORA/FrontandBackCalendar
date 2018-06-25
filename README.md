@@ -1,6 +1,6 @@
 # Calendar with jQuery Front End and Rails API Back End
 
-## Back End: Rails API Calendar supports Create, Read, & Delete on events.
+## Back End: Rails API Calendar can create, read, & delete events from postgreSQL database.
 
 ### Front End Specs:
 
